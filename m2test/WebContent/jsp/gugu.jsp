@@ -9,6 +9,7 @@
 	<!-- datatbase를 요청해서 만드는 것을 dao, database없이 진행하는 것이 business(service) object -->
 	<h1>jsp방식 구구단</h1>
 	<div>안녕하세요</div>
+	<div>집작업 테스트</div>
 	<%
 		//Integer=class, parseInt=method(클래스 이름으로 바로 호출할 수 있기 때문에 static method), request=? ,getParameter=?
 		int dan = Integer.parseInt(request.getParameter("dan"));
